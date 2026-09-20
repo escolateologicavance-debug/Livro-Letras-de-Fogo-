@@ -1,10 +1,11 @@
-const CACHE_NAME = 'letras-de-fogo-v2';
+const CACHE_NAME = 'letras-de-fogo-v3';
 const assetsToCache = [
-'index.html',
-'manifest.json',
-'assets/images/capa.png',
-'assets/audio/hatikvah.mp3',
-'assets/pdfs/introducao.pdf',
+  'index.html',
+  'manifest.json',
+  'assets/images/capa.png',
+  'assets/audio/hatikvah.mp3',
+  'introducao.pdf',
+  'capitulo1.pdf',
 'assets/pdfs/capitulo1.pdf',
 'assets/pdfs/capitulo2.pdf',
 'assets/pdfs/capitulo3.pdf',
