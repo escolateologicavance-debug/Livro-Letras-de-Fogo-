@@ -71,6 +71,29 @@ footer { text-align: center; margin-top: 40px; font-size: 0.9rem; color: #757575
 </ul>
 </section>
 </main>
+<!-- Botão para abrir o Hino -->
+<div style="text-align: center; margin: 30px 0;">
+    <button onclick="document.getElementById('modalHino').style.display='flex'" style="background: #ff7043; color: #fff; border: none; padding: 12px 25px; font-size: 1rem; font-weight: bold; border-radius: 6px; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.4);">
+        🎵 Ouvir Hatikvah (Hino de Israel)
+    </button>
+</div>
+
+<!-- Modal do Hino -->
+<div id="modalHino" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); justify-content: center; align-items: center; z-index: 1000; padding: 20px;">
+    <div style="background: #1e1e1e; padding: 25px; border-radius: 8px; max-width: 400px; width: 100%; text-align: center; border: 1px solid #ff7043; position: relative;">
+        <h3 style="color: #ff7043; margin-bottom: 15px;">Hatikvah (A Esperança)</h3>
+        <p style="color: #b0bec5; font-size: 0.9rem; margin-bottom: 20px;">Hino Nacional de Israel</p>
+        
+        <!-- Player apontando para o MP3 na pasta correta -->
+        <audio controls style="width: 100%; margin-bottom: 20px;">
+            <source src="assets/audio/hatikvah.mp3" type="audio/mpeg">
+            Seu navegador não suporta áudio.
+        </audio>
+
+        <br>
+        <button onclick="document.getElementById('modalHino').style.display='none'" style="background: #333; color: #fff; border: none; padding: 8px 20px; border-radius: 4px; cursor: pointer;">Fechar</button>
+    </div>
+</div>
 
 <footer>
 <p>© 2026 Letras de Fogo — Autor: Gilberto Moreira</p>
