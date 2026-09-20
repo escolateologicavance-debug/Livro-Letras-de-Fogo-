@@ -1,0 +1,16 @@
+{
+"name": "Letras de Fogo",
+"short_name": "LetrasDeFogo",
+"description": "A Necessidade Teológica e Histórica do Idioma Hebraico",
+"start_url": "index.html",
+"display": "standalone",
+"background_color": "#121212",
+"theme_color": "#121212",
+"icons": [
+{
+"src": "assets/images/capa.jpg",
+"sizes": "512x512",
+"type": "image/jpeg"
+}
+ ]
+}

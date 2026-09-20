@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Letras de Fogo - Gilberto Moreira</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#121212">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #121212; color: #e0e0e0; line-height: 1.6; padding: 20px; }
+header { text-align: center; margin-bottom: 30px; }
+.cover-container { max-width: 400px; margin: 0 auto 20px auto; border-radius: 8px; overflow: hidden; box-shadow: 0 8px 16px rgba(0,0,0,0.6); }
+.cover-container img { width: 100%; height: auto; display: block; }
+h1 { color: #ff7043; font-size: 2rem; margin-bottom: 5px; }
+h2 { color: #b0bec5; font-size: 1.1rem; font-weight: normal; margin-bottom: 20px; }
+.section-title { color: #ff7043; border-bottom: 2px solid #ff7043; padding-bottom: 5px; margin: 30px 0 15px 0; font-size: 1.4rem; }
+ul { list-style: none; }
+li { background: #1e1e1e; margin-bottom: 10px; border-radius: 6px; overflow: hidden; transition: background 0.3s; }
+li a { display: block; padding: 15px; color: #ffffff; text-decoration: none; font-weight: 500; }
+li a:hover { background: #2c2c2c; color: #ff7043; }
+.external-link { background: #d84315; text-align: center; margin-top: 30px; }
+.external-Link a { color: #fff; font-weight: bold; }
+footer { text-align: center; margin-top: 40px; font-size: 0.9rem; color: #757575; }
+</style>
+</head>
+<body>
+
+<header>
+<div class="cover-container">
+<!-- Referência exata da capa solicitada -->
+<img src="assets/images/capa.jpg" alt="Capa do Livro Letras de Fogo">
+</div>
+<h1>Letras de Fogo</h1>
+<h2>A Necessidade Teológica e Histórica do Idioma Hebraico</h2>
+</header>
+
+<main>
+<section>
+<h3 class="section-title">Sumário</h3>
+<ul>
+<li><a href="assets/pdfs/introducao.pdf" target="_blank">Introdução</a></li>
+<li><a href="assets/pdfs/capitulo1.pdf" target="_blank">Capítulo 1: O Despertar do Sopro Original</a></li>
+<li><a href="#" onclick="alert('Capítulo em desenvolvimento!'); return false;">Capítulo 2: A Arquitetura do Pensamento Hebraico</a></li>
+<li><a href="#" onclick="alert('Capítulo em desenvolvimento!'); return false;">Capítulo 3: O Eco do Deserto contra os Monumentos do Egito</a></li>
+<li><a href="#" onclick="alert('Capítulo em desenvolvimento!'); return false;">Capítulo 4: A Pátria Portátil — O Idioma como Sobrevivência</a></li>
+<li><a href="#" onclick="alert('Capítulo em desenvolvimento!'); return false;">Capítulo 5: Verbos Dinâmicos e a Consciência de Israel</a></li>
+<li><a href="#" onclick="alert('Capítulo em desenvolvimento!'); return false;">Capítulo 6: A Raiz Trilitrilógica e a Substância do Som</a></li>
+<li><a href="#" onclick="alert('Capítulo em desenvolvimento!'); return false;">Capítulo 7: Os Perigos das Traduções Ocidentais</a></li>
+<li><a href="#" onclick="alert('Capítulo em desenvolvimento!'); return false;">Capítulo 8: A Aliança e a Linguagem da Responsabilidade</a></li>
+<li><a href="#" onclick="alert('Capítulo em desenvolvimento!'); return false;">Capítulo 9: O Impacto na Exegese Profética</a></li>
+<li><a href="#" onclick="alert('Capítulo em desenvolvimento!'); return false;">Capítulo 10: O Mistério Oculto nos Caracteres Sagrados</a></li>
+<li><a href="#" onclick="alert('Capítulo em desenvolvimento!'); return false;">Capítulo 11: A Dimensão Teológica do Tempo e da História</a></li>
+<li><a href="#" onclick="alert('Capítulo em desenvolvimento!'); return false;">Capítulo 12: A Ruptura com o Politeísmo Circulante</a></li>
+<li><a href="#" onclick="alert('Capítulo em desenvolvimento!'); return false;">Capítulo 13: O Retorno à Fonte — Desafiando a Superficialidade</a></li>
+<li><a href="#" onclick="alert('Capítulo em desenvolvimento!'); return false;">Capítulo 14: Considerações Finais sobre a Semente da Palavra</a></li>
+<li><a href="#" onclick="alert('Capítulo em desenvolvimento!'); return false;">Capítulo 15: Epílogo — O Fogo que Não Se Apaga</a></li>
+</ul>
+</section>
+
+<section>
+<h3 class="section-title">Bibliografia</h3>
+<p style="padding: 10px 0; color: #b0bec5;">Referências textuais, léxicos, gramáticas históricas e fontes comparativas do Oriente Próximo utilizadas na pesquisa e estruturação desta obra.</p>
+</section>
+
+<section>
+<ul>
+<li class="external-link">
+<a href="https://escolateologicavance-debug.github.io/Cursos-Gerais-AVANCE-/" target="_blank">Conheça Nossos Produtos (Escola Teológica Avançe)</a>
+</li>
+</ul>
+</section>
+</main>
+
+<footer>
+<p>© 2026 Letras de Fogo — Autor: Gilberto Moreira</p>
+</footer>
+
+<script>
+// Registro básico do Service Worker para habilitar o PWA offline
+if ('serviceWorker' in navigator) {
+navigator.serviceWorker.register('sw.js')
+.then(() => console.log('Service Worker registrado com sucesso!'))
+.catch(err => console.log('Erro ao registrar Service Worker:', err));
+}
+</script>
+</body>
+</html>
